@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FETCH API</title>
+    <link rel="stylesheet" href="./assert/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assert/css/style.css" />
+    <script src="./assert/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark na fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fetch API</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+          <div class="navbar-nav">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link sign">Signup</a>
+            <a href="#" class="nav-link log">Login</a>
+            <a href="#footer" class="nav-link log">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 overlay"></div>
+      </div>
+    </div>
+    <div class="pop container mt-5">
+      <!-- register  -->
+      <form action="#" id="form">
+        <h1>Register</h1>
+        <div class="input-gr">
+          <label for="Username">UserName</label>
+          <input type="text" id="Username" />
+          <div class="error"></div>
+        </div>
+        <div class="input-gr">
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-gr">
+          <label for="pass">Password</label>
+          <input type="password" id="pass" />
+          <div class="error"></div>
+        </div>
+        <div class="input-gr">
+          <label for="cpass">Confirm Password</label>
+          <input type="password" id="cpass" />
+          <div class="error"></div>
+        </div>
+        <button>Register</button>
+      </form>
+      <!-- login  -->
+      <form action="#" id="form1">
+        <h1 class="center">Login Form</h1>
+        <div class="input-gr">
+          <label for="Username">UserName</label>
+          <input type="text" id="username" />
+          <div class="error"></div>
+        </div>
+        <div class="input-gr">
+          <label for="pass">Password</label>
+          <input type="password" id="pass1" />
+          <div class="error"></div>
+        </div>
+        <button>Login</button>
+      </form>
+    </div>
+    <div class="container boxs">
+      <h2 class="text-center">User Details</h2>
+    </div>
+    <br />
+    <br />
+
+    <div class="footer text-center text-bg-secondary p-3" id="footer">
+      <h5 style="color: black; font-weight: 700">Contanct us</h5>
+      <p><span class="text-info">Email: </span>temporary@gmail.com</p>
+      <p><span class="text-info">Phone: </span>+918602474747</p>
+      <p>&copy; 2023. All rights reserved.</p>
+    </div>
+    <script src="./assert/js/script.js"></script>
+  </body>
+</html>
